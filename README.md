@@ -3,10 +3,13 @@
 In dieser Lernperiode will ich weiter an Minispiele wie Space Invaders programmieren.
 Für diese Lernperiode habe ich die folgende Module: 259, 114, 426.
 
-Die Zielnote für jedes Modul
-259: 5
-114: 5.5
-426: 5
+Die Zielnote für jedes Modul:
+
+- [ ] 259: 5
+- [ ] 114: 5.5
+- [ ] 426: 5
+
+
 
 ### 14.02.2025
 - [ ] Ich will für den Modul 347 lernen.
