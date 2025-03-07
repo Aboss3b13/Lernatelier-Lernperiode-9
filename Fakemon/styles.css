@@ -1,0 +1,361 @@
+/* General styling for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #030640;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+/* Remove underline from the link and inherit color from the h1 */
+.no-underline {
+    text-decoration: none; /* Ensures no underline */
+    color: inherit;        /* Inherits color from the h1 */
+}
+
+/* Additional styling for h1 */
+h1 {
+    font-size: 48px;
+    color: #e1ce60; /* Desired text color */
+    font-size: 10vw; /* Relative to viewport width for responsiveness */
+    transition: transform 0.3s ease; /* Smooth scaling transition */
+    margin: 0; /* Remove any default margin */
+    margin-top: 0px; /* Move the h1 closer to the top */
+}
+
+/* Hover effect for h1 */
+h1:hover {
+    transform: scale(1.2); /* Grow by 20% on hover */
+}
+
+/* Form styles */
+#auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff; /* Text color for forms */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Space between forms */
+    width: 300px; /* Fixed width for forms */
+}
+
+input {
+    margin: 10px 0; /* Space between inputs */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Button styles */
+button {
+    background-color: #1e2987;
+    color: #ac940d;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: transform 0.3s ease; /* Smooth transition for scaling effect */
+}
+
+button:hover {
+    transform: scale(1.05); /* Grow slightly on hover */
+}
+
+/* Larger button styles */
+.Pokedex, .Play, .Trade {
+    font-size: 5vw; /* Responsive font size */
+    padding: 2vw 4vw; /* Responsive padding */
+    margin: 10px; /* Add margin for spacing */
+}
+
+/* Container for buttons */
+.button-container {
+    display: flex; /* Use flexbox to layout buttons */
+    justify-content: center; /* Center buttons horizontally */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    margin-top: 20px; /* Space above buttons */
+}
+
+/* Position the buttons without using absolute positioning */
+.Pokedex {
+    background-color: #1e2987; /* Example background color */
+    color: #fff; /* Text color */
+}
+
+.Play {
+    background-color: #1e2987; /* Example background color */
+    color: #fff; /* Text color */
+}
+
+.Trade {
+    background-color: #1e2987; /* Example background color */
+    color: #fff; /* Text color */
+}
+
+/* Add responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .Pokedex, .Play, .Trade {
+        font-size: 8vw; /* Increase font size for smaller screens */
+        padding: 5vw 5vw; /* Increase padding */
+    }
+}
+
+/* Styles for user info */
+#user-info {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    color: #e1ce60; /* Username color */
+    font-size: 24px; /* Font size for username */
+}
+
+/* Sign out button styles */
+.signout-btn {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    background-color: #e74c3c; /* Red color for sign out */
+    color: white; /* Text color */
+    padding: 10px 15px; /* Padding for the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 16px; /* Font size */
+}
+
+.signout-btn:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+/* Pokedex grid styles */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(2, 1fr);    /* 2 rows */
+    gap: 20px; /* Space between the boxes */
+    margin-top: 20px; /* Space above the grid */
+}
+
+.grid-item {
+    background-color: #1e2987;
+    color: #fff;
+    padding: 20px; /* Padding inside the grid items */
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease; /* Smooth transition for scaling effect */
+}
+
+.grid-item:hover {
+    transform: scale(1.2); /* Grow by 5% on hover */
+}
+
+/* Additional styles for the user list */
+#user-list-container {
+    position: absolute;
+    top: 20%; /* Adjust position as needed */
+    left: 5%; /* Adjust position as needed */
+    width: 40%; /* Width of the user list section */
+    background-color: rgba(30, 41, 135, 0.8); /* Semi-transparent background */
+    color: white; /* Text color */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+h2 {
+    margin-top: 0; /* Remove margin at the top */
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points */ 
+    padding: 0; /* Remove padding */
+}
+
+li {
+    margin: 10px 0; /* Space between list items */
+    padding: 5px; /* Padding for each list item */
+    border-bottom: 1px solid #ccc; /* Divider line */
+}
+
+#user-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+#user-list li {
+    transition: transform 0.2s; /* Smooth transition for the scaling effect */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin: 5px 0; /* Space between list items */
+    padding: 10px; /* Add padding for better spacing */
+    border: none; /* Remove border if you added one */
+    border-radius: 5px; /* Optional: add rounded corners */
+    background-color: #5249c8; /* Optional: add a background color */
+    text-decoration: none; /* Ensure no underline */
+}
+
+/* Hover effect for list items */
+#user-list li:hover {
+    transform: scale(1.05); /* Slightly grow the item on hover */
+}
+
+.action-btn {
+    display: none; /* Hide buttons initially */
+    margin-left: 10px; /* Space between buttons */
+}
+
+/* Show buttons on hover */
+#user-list li:hover .action-btn {
+    display: inline-block; /* Show buttons when hovering over the list item */
+}
+
+/* Button styles */
+.action-btn {
+    padding: 5px 10px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+}
+
+.battle-btn {
+    background-color: #1e2987; /* Green */
+    color: white; /* White text */
+}
+
+.stats-btn {
+    background-color: #1e2987; /* Blue */
+    color: white; /* White text */
+}
+
+.battle-btn:hover, .stats-btn:hover {
+    opacity: 0.8; /* Slightly transparent on hover */
+}
+
+/* Notification button styles */
+.notification-btn {
+    background-color: #ff9800; /* Orange */
+    color: white; /* White text */
+    padding: 10px 15px; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    position: fixed; /* Fixed positioning */
+    top: 70px; /* Distance from the top */
+    right: 20px; /* Distance from the right */
+    z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.notification-btn:hover {
+    background-color: #e68900; /* Darker orange on hover */
+}
+
+.notification-box h3 {
+    margin: 0; /* Remove margin */
+}
+
+#notification-box {
+    display: none; /* Initially hidden */
+    position: fixed; /* Fixed position */
+    top: 20%; /* Center vertically */
+    right: 20%; /* Center horizontally */
+    background-color: #5249c8; /* Background color */
+    color: white; /* Font color */
+    padding: 20px; /* Padding around content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+/* Close Button Styles */
+#close-notification-btn {
+    background: transparent; /* Transparent background */
+    border: none; /* No border */
+    color: white; /* Close button color */
+    cursor: pointer; /* Pointer cursor */
+    font-weight: bold; /* Bold text */
+    margin-left: 10px; /* Margin for spacing */
+}
+
+#notification-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+#close-notification-btn {
+    background-color: #ff5722; /* Red background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 10px 15px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    margin-top: 10px; /* Spacing from list */
+}
+
+#close-notification-btn:hover {
+    background-color: #e64a19; /* Darker red on hover */
+}
+
+/* Chat message list styles */
+#chat-list {
+    display: flex;
+    flex-direction: column; /* Stack messages vertically */
+}
+
+#chat-list li {
+    list-style-type: none; /* Remove bullet points */
+    padding: 5px 10px; /* Add padding for better appearance */
+    margin: 5px 0; /* Space between messages */
+    border-radius: 5px; /* Rounded corners */
+    max-width: 70%; /* Limit message width */
+}
+
+.my-message {
+    align-self: flex-end; /* Align current user's messages to the right */
+    background-color: #d1e7dd; /* Example background color for current user's messages */
+    color: #0f5132; /* Example text color for current user's messages */
+}
+
+.other-message {
+    align-self: flex-start; /* Align other user's messages to the left */
+    background-color: #f8d7da; /* Example background color for other user's messages */
+    color: #721c24; /* Example text color for other user's messages */
+}
+.notification-btn {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.accept-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.reject-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.battle-btn {
+    background-color: #008CBA;
+    color: white;
+}
+
+.notification-btn:hover {
+    opacity: 0.8;
+}

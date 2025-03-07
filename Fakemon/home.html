@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fakémon - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="home.html" class="no-underline">
+        <h1>Fakémon</h1>
+    </a>
+
+    <div id="auth-container">
+        <div id="signup-container">
+            <h2>Sign Up</h2>
+            <form id="signup-form">
+                <input type="text" id="signup-username" placeholder="Username" required>
+                <input type="email" id="signup-email" placeholder="Email" required>
+                <input type="password" id="signup-password" placeholder="Password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+
+        <div id="login-container">
+            <h2>Log In</h2>
+            <form id="login-form">
+                <input type="email" id="login-email" placeholder="Email" required>
+                <input type="password" id="login-password" placeholder="Password" required>
+                <button type="submit">Log In</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="main-content" style="display:none;">
+        <div id="user-info" style="color: #e1ce60; font-size: 24px; margin-bottom: 20px;"></div> 
+        <div id="new-notification-message" style="display: none; color: green;">
+            New message sent!
+        </div>
+        
+        <a href="Pokedex.html">
+            <button class="Pokedex">Pokedex</button>
+        </a>
+
+        <a href="Play.html">
+            <button class="Play">Play</button>
+        </a>
+
+        <a href="Trade.html">
+            <button class="Trade">Trade</button>
+        </a>
+        
+        <!-- Notification Button -->
+        <button id="notification-btn" class="notification-btn">Notifications</button>
+
+        <!-- Notification Box -->
+        <!-- Notification Box -->
+<div id="notification-box" class="notification-box" style="display:none;">
+    <h3>Notifications</h3>
+    <ul id="notification-list">
+        <li>No new notifications.</li>
+    </ul>
+    <button id="close-notification-btn">Close</button>
+</div>
+
+        <button id="signout-btn" class="signout-btn">Sign Out</button>
+    </div>
+
+    <script type="module" src="auth.js"></script>
+    <script type="module" src="home.js"></script>
+</body>
+</html>
