@@ -36,7 +36,7 @@ Ich habe heute an mein Fakekon Projekt weiter programmiert. Ich habe ein Friends
 
 Ich habe heute weiter an mein Fakemon Projekt weiter programmiert. Mein Problem von letzten Mal habe ich gelöst. Jedoch habe ich ein neues Problem. Auf meiner Website habe ich eine "Notification box" in dem alle Nachrichten steht. Dort sollte es für jeden Nachricht eine accept oder reject Button Button geben, doch nur eine wird ausserhalb vom Box gezeigt. Nächste Woche werde ich mit dem beschäftigen.
 
-### 07.03.2025
+### 14.03.2025
 - [ ] "Accept" und "Reject" Button addieren für Friend Requests.
 - [ ] "Accept" und "Reject" Button pro je Nachricht.(Problem von letztes Mal lösen)
 - [ ] Eine "Friends" Table auf Firebase erstellen.
