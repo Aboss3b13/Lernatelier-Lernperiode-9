@@ -41,4 +41,6 @@ Ich habe heute weiter an mein Fakemon Projekt weiter programmiert. Mein Problem 
 - [ ] "Accept" und "Reject" Button pro je Nachricht.(Problem von letztes Mal lösen)
 - [ ] Eine "Friends" Table auf Firebase erstellen.
 
+Heute habe ich den Accept Button und Reject Button je pro Notification addiert. Ich habe auch eine Friends-Tabelle im Firebase database erstellt.
+
 
