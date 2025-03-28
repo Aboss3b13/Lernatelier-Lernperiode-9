@@ -54,3 +54,5 @@ heute habe ich eine Friends-Liste erstellt. Wenn ich mein Maus über ein "Friend
 - [ ] Wenn das Battle Request akzeptiert wird, sollten die beiden Spielern auf ein neues Page kommen.
 - [ ] C# auf leetcode üben und meine Ergebnisse mit andere vergleichen
 
+In mein Fakemon Projekt habe ich heute ein System programmiert wo nach dem mn den Battle Request akzeptiert wird, wird man zu ein battle Page gebracht. Zudem habe ich auf Leetcode C# geübt.
+
