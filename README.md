@@ -49,5 +49,8 @@ Heute habe ich den Accept Button und Reject Button je pro Notification addiert. 
       
 heute habe ich eine Friends-Liste erstellt. Wenn ich mein Maus über ein "Friend" schwebe, gibt es mir drei verschiedene Optionen an: Trade, battle und Chat. nachdem habe ichweiter an den Battle Funktion programmiert. Wenn beide Parteien Consent auf den "Battle" geben, sollten sie beide auf ein anderen Bildschirm kommen. Auf dies werde ich nächstes Mal weiter arbeiten.
 
+### 28.03.2025
 
+- [ ] Wenn das Battle Request akzeptiert wird, sollten die beiden Spielern auf ein neues Page kommen.
+- [ ] C# auf leetcode üben und meine Ergebnisse mit andere vergleichen
 
