@@ -60,3 +60,5 @@ In mein Fakemon Projekt habe ich heute ein System programmiert wo nach dem mn de
 
 - [ ] Ethical Hacking course beginnen (https://www.youtube.com/watch?v=fNzpcB7ODxQ&t)
 
+Heute habe ich begonnen ein ethical hacking course durchzuführen. Ich habe paar Terme wie IPAddresse, DNS repetiert. Ich habe über Subnetting gelernt. Ich habe dann Kali Linux installiert und mich mit RootKali Terminal die Commands gewöhnt.
+
