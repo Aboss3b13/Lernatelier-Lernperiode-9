@@ -56,3 +56,7 @@ heute habe ich eine Friends-Liste erstellt. Wenn ich mein Maus über ein "Friend
 
 In mein Fakemon Projekt habe ich heute ein System programmiert wo nach dem mn den Battle Request akzeptiert wird, wird man zu ein battle Page gebracht. Zudem habe ich auf Leetcode C# geübt.
 
+### 28.03.2025
+
+- [ ] Ethical Hacking course beginnen (https://www.youtube.com/watch?v=fNzpcB7ODxQ&t)
+
